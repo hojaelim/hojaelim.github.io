@@ -1,15 +1,39 @@
-/* style.css */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #eef;
     text-align: center;
 }
 
-h1 {
-    color: #0077cc;
+nav {
+    background-color: #333;
+    padding: 10px 0;
 }
 
-p {
-    font-size: 20px;
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #0077cc;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px;
 }
