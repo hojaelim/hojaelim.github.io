@@ -48,40 +48,6 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* Hero Section */
-.hero {
-    background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center/cover;
-    color: white;
-    padding: 100px 20px;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-}
-
-.hero h1 {
-    font-size: 3rem;
-}
-
-.hero .btn {
-    display: inline-block;
-    background-color: #0077cc;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-
-.hero .btn:hover {
-    background-color: #0055aa;
-}
-
-/* About Section */
-#about img {
-    width: 100%;
-    max-width: 600px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
 /* Services Section */
 .service-container {
     display: flex;
@@ -96,32 +62,45 @@ nav ul li a:hover {
     width: 250px;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.service-card img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .service-card h3 {
     color: #0077cc;
 }
 
-/* Contact Section */
-#contact p {
-    font-size: 18px;
+/* Contact Page Form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
     margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-#contact a {
-    color: #0077cc;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#contact a:hover {
-    text-decoration: underline;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
+form button {
+    padding: 10px;
+    background-color: #0077cc;
     color: white;
-    padding: 15px;
-    margin-top: 50px;
+    border: none;
+    cursor: pointer;
 }
+
+form button:hover {
+    background-color: #0055aa;
+}
+
